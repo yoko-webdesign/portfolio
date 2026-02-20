@@ -109,6 +109,28 @@ a:hover {
   width: 100%;
 }
 
+.intro {
+  max-width: 900px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.intro h2 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.intro p {
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.intro .note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
 /* Hero */
 .hero {
   height: 100vh;
