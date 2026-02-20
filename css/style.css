@@ -109,6 +109,11 @@ a:hover {
   width: 100%;
 }
 
+.main {
+  padding-top: 100px;
+}
+
+
 .intro {
   max-width: 900px;
   margin: 0 auto 60px;
@@ -133,20 +138,16 @@ a:hover {
 
 /* Hero */
 .hero {
-  height: 100vh;
+  padding: 120px 0;
   min-height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: var(--color-bg-light);
-  .hero {
-  padding: 120px 0;
-  min-height: auto;
-}
-  /* Header height */
 }
 
+  /* Header height */
 .hero-catch {
   font-size: 2.2rem;
   font-weight: 700;
